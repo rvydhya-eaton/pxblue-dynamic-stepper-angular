@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */@import '~@pxblue/themes/angular/theme.scss';
+body { 
+  margin: 0;
+}
+
+* {
+  //caution this will block text fields in safari
+  user-select: none;
+}
